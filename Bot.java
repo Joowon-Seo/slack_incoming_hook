@@ -10,9 +10,9 @@ public class Bot {
         // Block Kit을 이용한 Slack 메시지
         String payload = "{"
                 + "\"blocks\": ["
-                + "    {\"type\": \"section\", \"text\": {\"type\": \"mrkdwn\", \"text\": \"*🎉 유쾌한 봇 등장! 🎉*\"}},"
+                + "    {\"type\": \"section\", \"text\": {\"type\": \"mrkdwn\", \"text\": \"*🎉 멘탈관리 봇 등장! 🎉*\"}},"
                 + "    {\"type\": \"divider\"},"
-                + "    {\"type\": \"section\", \"text\": {\"type\": \"mrkdwn\", \"text\": \"🚀 오늘도 힘내요! 봇이 특별한 응원을 보냅니다! 💪\"}},"
+                + "    {\"type\": \"section\", \"text\": {\"type\": \"mrkdwn\", \"text\": \"🚀 오늘도 힘내요! 특별한 응원을 보냅니다! 💪\"}},"
                 + "    {\"type\": \"image\", \"image_url\": \"https://media.giphy.com/media/l0HlOvJ7yaacpuSas/giphy.gif\", \"alt_text\": \"funny gif\"}"
                 + "]"
                 + "}";
