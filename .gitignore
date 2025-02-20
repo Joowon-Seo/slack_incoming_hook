@@ -1,0 +1,57 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Windows 시스템 파일 제외
+.DS_Store
+Thumbs.db
+desktop.ini
+NTUSER.DAT*
+AppData/
+Documents/
+Downloads/
+Pictures/
+Videos/
+
+# IDE 관련 설정 파일 제외
+.idea/
+*.iml
+*.log
+*.swp
+*.swo
+*.bak
+
+# Node.js 관련 파일 제외
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Java, Eclipse, Gradle 관련 파일 제외
+.settings/
+.gradle/
